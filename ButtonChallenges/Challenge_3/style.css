@@ -1,0 +1,27 @@
+body{
+  background-color: #46B2E0;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 300px;
+  }
+  
+  .btn {
+    background-color: #03203c;
+    color: #ffffff;
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    text-transform: capitalize;
+  }
+  
+  .btn-text-one {
+  }
+  
+  
+  .btn-text-two {
+  }
+  

@@ -1,0 +1,29 @@
+
+footer{
+    position: relative;
+    top: 500px;
+    /* bottom:500px; */
+    text-align: center;
+    }
+
+.footer {
+    position: relative;
+    top: 500px;
+    left:20px;
+    right:20px;
+    bottom:30px;
+}
+
+.content{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.heading{
+    position: absolute;
+    top: -90px;
+    left: 200px;
+    }
+
+
+

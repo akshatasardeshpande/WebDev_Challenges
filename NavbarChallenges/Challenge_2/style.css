@@ -1,0 +1,69 @@
+body{
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+    /* the nav bar */
+body ul{
+    background-color: #1f1f1f;
+    /* color: #ffffff; */
+    text-align: center;
+    list-style: none;
+    }
+
+    /* the columns inside nav bar */
+ul li {
+        display: inline-flex;
+        list-style: none;
+        color: #ffffff;
+        }
+
+        /* the dropdown */
+ul li a{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+
+li a:hover {
+    background-color: pink;
+    color: #ffffff;
+}
+
+/* the drop down menus */
+a + ul li a  {
+    display: none;
+   }
+
+/* while the dropdown is clicked */
+li a:hover a + ul li a  {
+display:block;
+position: absolute;
+background-color: pink;
+color: #ffffff;
+margin-top: 15px;
+margin-left: -15px;
+}
+   
+/* to make the dropdown fall vertical */
+/* li a:hover a + ul li a ul{
+display: block;
+margin: 10px;
+} */
+
+/* align the dropdown left & a thin line */
+/* li a:hover a + ul li a ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #ffffff;
+    background-color: transparent;
+    border-radius: 0;
+    text-align: left;
+} */
+
+
+
+
+

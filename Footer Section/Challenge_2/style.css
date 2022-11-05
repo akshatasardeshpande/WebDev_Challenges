@@ -1,0 +1,104 @@
+
+.bottom-details{
+    
+}
+
+.bottom_text{
+    position: relative;
+    top: 500px;
+    text-align: center;
+    border: 2px solid #120E43 ;
+    width:auto;
+    height:50px;
+    background-color: #120E43 ;
+    color:#ffffff;
+    align-items: center;
+}
+
+/* Corner right */
+.policy_terms{
+position:absolute;
+right:50px;
+}
+
+/* corner left */
+.copyright_text{
+    position:absolute;
+    left:50px;
+    
+}
+
+footer{
+    background-color: #ffffff;
+}
+
+.content{
+    position: relative;
+    top: 500px;
+    text-align:start;
+    border: 2px solid #253898;
+    color: #ffffff;
+    width:auto;
+    height: auto;
+    background-color: #253898;
+    color: #ffffff; ;
+    color:#ffffff;
+    align-items: center;
+}
+
+.link_name{
+    font-family: "Orbitron";
+    font-size: xx-large;
+}
+
+.link_name:nth-child(1)::after{
+    position: absolute;
+    content: "";
+    bottom: 190px;
+    left:10%;
+    width:4%;
+    border-bottom: 2px solid #ffffff;
+}
+
+.top{
+position:relative;
+}
+
+/* top left */
+.logo-details{
+position: absolute;
+left: 170px;
+font-size:xx-large;
+}
+
+/* top right */
+.media-icons{
+    position:absolute;
+    right:50px;
+    font-size: x-large;
+    
+}
+
+/* .fab fa-facebook-f::before{
+display: block;
+content: " ";
+width: 10px;
+height: 10px;
+border-radius: 5px;
+background-color: #120E43;
+color: #ffffff;
+} */
+
+/* the 5 cols */
+.link-boxes{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box input-box{
+
+}
+
+.button{
+    width: auto;
+}

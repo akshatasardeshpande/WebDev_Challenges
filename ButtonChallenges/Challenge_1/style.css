@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 400px;
+   
+    
+  }
+
+  .btn{
+    display:  block;
+    width: auto;
+    border: none;
+    background-color: #1e90ff;
+    padding: 14px 28px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .container::after{
+ content: "7";
+ font-size: 15px;
+ display:inline-block;
+ background-color: #1f1f1f;
+ color: #ffffff;
+ width: 20px;
+ height: 20px;
+ border-radius: 10px;
+ text-align: center;
+ position: relative;
+ bottom: 20px; 
+ right: 15px;
+  }
+
+
+
+  
